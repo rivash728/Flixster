@@ -56,7 +56,7 @@ Describe any challenges encountered while building the app.
 ### App Walkthough GIF
 
 
-<img src="drag&drop.gif" width=250><br>
+<img src="Flixster App Demonstration.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.

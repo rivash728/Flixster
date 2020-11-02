@@ -36,7 +36,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
     }
 
 
-    //Inflates the XML file and puts it into the viewHolder
+    // Inflates the XML file into ViewHolder
     @NonNull
     @Override //
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -45,7 +45,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
         return new ViewHolder(movieView);
     }
 
-    //involves populating data into the item through view holder
+    // Populates data into item through view holder
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Log.d("MovieAdapter","onBindViewHolder" + position);
@@ -54,7 +54,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
         //Binds the information into the holder.
         holder.bind(movie);
     }
-    //returns the total count of items in the list
+    // Returns total count of items in list
     @Override
     public int getItemCount() {
         return movies.size();
